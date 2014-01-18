@@ -10,6 +10,9 @@ Authors: Bryant Moquist, Ian Bablewski, Calvin Flegal
 * Project Photos
 * Key Resources
 * Source Code
+ 
+#####Final Project Report: 
+Detailed description of the project with diagrams and photographs. 
 
 #####Key Resources: 
 This folder contains two pieces of sample code that were useful during the project.  The links are listed in the reference sections of the report.
