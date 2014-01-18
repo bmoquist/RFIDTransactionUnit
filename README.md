@@ -15,18 +15,23 @@ Authors: Bryant Moquist, Ian Bablewski, Calvin Flegal
 This folder contains two pieces of sample code that were useful during the project.  The links are listed in the reference sections of the report.
 
 #####Source Code:
-*Kernel module*:  Compile the kRFID.ko kernel module using the Makefile by typing 'make' on the Linux machines.  Transfer kRFID to the gumstix with Hyperterminal.  
+*Kernel module*:  Compile the kRFID.ko kernel module using the Makefile.  Transfer kRFID to the gumstix with Hyperterminal.  
 
-*To insert the module from the command line, type:
+To insert the module from the command line, type:
 ```
 mknod /dev/kRFID c 61 0
 insmod(kRFID)
 ```
 
-*To remove the module, use rmmod(kRFID).
+To remove the module:
+```
+rmmod(kRFID).
+```
 
-*User space program*:  Compile on the Linux machines using the Makefile by typing 'make'.  Then, transfer to the Gumstix using Hyperterminal.  Run the program with the following command:
-"./newqt -qws"
+*User space program*:  Compile using the Makefile.  Then, transfer to the Gumstix using Hyperterminal.  Run the program with the following command:
+```
+./newqt -qws
+```
 
 To run the program:
 ```
